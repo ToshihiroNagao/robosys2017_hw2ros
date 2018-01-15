@@ -1,0 +1,8 @@
+<launch>
+ <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch">
+    <arg name="port" value="9000"/>
+ </include>
+ <node pkg="robosys2017_ros" name="count" type="code1.py" required="true" />
+ <node pkg="robosys2017_ros" name="receiver" type="code2.py" required="true" />
+ <node pkg="robosys2017_ros" name="webserver" type="webserver.py" args="8000" required="true" />
+</launch>
