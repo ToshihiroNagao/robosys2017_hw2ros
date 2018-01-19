@@ -16,4 +16,4 @@ $ roslaunch robosys2017_hw2ros rosprog.launch
 
 * 講義中で使用したwebserver.pyを利用して、PCのブラウザでhttp://(仮想マシンorRaspberry PiのIPアドレス)を閲覧する
 
-![Youtube(準備中)]()
+![Youtube](https://youtu.be/ChsXssXpmfw)
